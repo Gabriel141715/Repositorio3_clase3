@@ -25,12 +25,21 @@ public class P1_c3 {
 
         // Calcular el promedio
         double promedio = (double) suma / 2;
+        
 
         // Mostrar los resultados
         System.out.println("La suma de los números es: " + suma);
         System.out.println("El promedio de los números es: " + promedio);
+          
+        int mayor = encontrarMayor(numero1, numero2);
+        System.out.println("El número mayor es: " + mayor);
 
         // Cerrar el scanner
         scanner.close();
+    }
+
+    // Función que retorna el número mayor de dos enteros
+    public static int encontrarMayor(int a, int b) {
+        return (a > b) ? a : b;
     }
 }
