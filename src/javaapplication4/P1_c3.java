@@ -26,7 +26,7 @@ public class P1_c3 {
         // Calcular el promedio
         double promedio = (double) suma / 2;
         
-
+        //ACTULIZAR
         // Mostrar los resultados
         System.out.println("La suma de los números es: " + suma);
         System.out.println("El promedio de los números es: " + promedio);
